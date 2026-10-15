@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="titulo">
+<title id="titulo">Selección de una prioridad para la siguiente sesión</title>
+<defs>
+    <pattern id="cuadricula" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#29455a" stroke-width="1" opacity=".24"/></pattern>
+    <marker id="flecha" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#19c5c8"/></marker>
+    <marker id="puntaPrioridad" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="25" markerHeight="25" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#ffa31a"/></marker>
+</defs>
+<rect width="800" height="450" fill="#0c1e2b"/>
+<rect width="800" height="450" fill="url(#cuadricula)"/>
+<text x="42" y="42" font-family="Arial, sans-serif" font-size="17" fill="#19c5c8" text-anchor="start">03 / AJUSTA TU SIGUIENTE SESIÓN</text><circle cx="400" cy="222" r="123" fill="#102536" stroke="#29455a" stroke-width="3"/><circle cx="400" cy="222" r="87" fill="none" stroke="#416079" stroke-width="2"/><circle cx="400" cy="222" r="48" fill="#19c5c8" opacity=".14"/><circle cx="400" cy="222" r="14" fill="#19c5c8"/><path d="M520 115L400 222" fill="none" stroke="#ffa31a" stroke-width="6" marker-end="url(#puntaPrioridad)"/><text x="170" y="230" font-family="Arial, sans-serif" font-size="19" fill="#b6c4cf" text-anchor="middle">Observar</text><text x="645" y="230" font-family="Arial, sans-serif" font-size="19" fill="#b6c4cf" text-anchor="middle">Elegir</text><text x="400" y="415" font-family="Arial, sans-serif" font-size="21" fill="#f4f8fb" text-anchor="middle">Trabaja una prioridad cada vez.</text>
+</svg>

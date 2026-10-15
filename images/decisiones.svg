@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="titulo">
+<title id="titulo">Tres opciones al recibir el balón: controlar, pasar o despejar</title>
+<defs>
+    <pattern id="cuadricula" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#29455a" stroke-width="1" opacity=".24"/></pattern>
+    <marker id="flecha" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#19c5c8"/></marker>
+</defs>
+<rect width="800" height="450" fill="#0c1e2b"/>
+<rect width="800" height="450" fill="url(#cuadricula)"/>
+<text x="42" y="42" font-family="Arial, sans-serif" font-size="17" fill="#19c5c8" text-anchor="start">03 / LEE EL ESPACIO</text><circle cx="180" cy="225" r="14" fill="#f4f8fb" stroke="#aebdc8" stroke-width="3"/><path d="M175 217L187 220L188 232L175 233L170 225Z" fill="#607b8d"/><path d="M200 225H335M335 120V330M335 120H430M335 225H430M335 330H430" fill="none" stroke="#19c5c8" stroke-width="3"/><rect x="430" y="85" width="280" height="70" rx="14" fill="#102536" stroke="#29455a"/><text x="570" y="127" font-family="Arial, sans-serif" font-size="23" fill="#f4f8fb" text-anchor="middle">Controlar</text><rect x="430" y="190" width="280" height="70" rx="14" fill="#102536" stroke="#29455a"/><text x="570" y="232" font-family="Arial, sans-serif" font-size="23" fill="#f4f8fb" text-anchor="middle">Pasar</text><rect x="430" y="295" width="280" height="70" rx="14" fill="#102536" stroke="#29455a"/><text x="570" y="337" font-family="Arial, sans-serif" font-size="23" fill="#f4f8fb" text-anchor="middle">Despejar</text><text x="400" y="415" font-family="Arial, sans-serif" font-size="21" fill="#f4f8fb" text-anchor="middle">Elige según el rival y tus compañeros.</text>
+</svg>

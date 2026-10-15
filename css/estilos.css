@@ -13,15 +13,27 @@ body {
 .navbar .nav-link:hover, .navbar .nav-link:focus { color: #f4f8fb; }
 .navbar .nav-link.active { color: #19c5c8; text-decoration: underline; text-underline-offset: 6px; }
 main { min-height: 75vh; }
-.portada { padding-top: 4rem; padding-bottom: 4rem; }
+.portada { padding-top: 2.75rem; padding-bottom: 2rem; }
 h1, h2, h3 { font-weight: bold; line-height: 1.2; }
+img { max-width: 100%; height: auto; }
+.container { max-width: 1180px; }
+.card-body { padding: 1.4rem; }
+.card-text { color: #b6c4cf; }
+.display-4 { font-size: clamp(2.4rem, 4vw, 3.5rem); }
+.display-5 { font-size: clamp(2rem, 3.4vw, 2.8rem); }
+.lead { max-width: 760px; }
+.imagen-portada { aspect-ratio: 16 / 9; object-fit: contain; }
+.portada-inicio { padding-top: 3.5rem; padding-bottom: 2.5rem; }
+.ruta { padding: 1rem 0; color: #b6c4cf; }
+.ruta span { color: #19c5c8; }
+@media (min-width: 992px) { .portada-inicio .row { min-height: 350px; } }
 .etiqueta { font-size: .85rem; font-weight: bold; letter-spacing: .12rem; text-transform: uppercase; }
 .texto-secundario, .pie-imagen { color: #b6c4cf; }
-.imagen-portada { width: 100%; border-radius: 12px; border: 1px solid #29455a; }
+.imagen-portada { width: 100%; height: auto; border-radius: 12px; border: 1px solid #29455a; }
 .panel, .card { background-color: #102536; color: #f4f8fb; border: 1px solid #29455a; }
 .panel { padding: 1.5rem; border-radius: 12px; }
 .card { height: 100%; overflow: hidden; }
-.card-img-top { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.card-img-top { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; background-color: #0c1e2b; border-bottom: 1px solid #29455a; }
 .card-title { font-size: 1.3rem; }
 .btn-primary { background-color: #16b9bd; border-color: #16b9bd; color: #041017; font-weight: bold; }
 .btn-primary:hover, .btn-primary:focus { background-color: #34d1d3; border-color: #34d1d3; color: #041017; }
@@ -30,8 +42,6 @@ h1, h2, h3 { font-weight: bold; line-height: 1.2; }
 .separador { border-top: 1px solid #29455a; }
 .accordion { --bs-accordion-bg: #102536; --bs-accordion-color: #f4f8fb; --bs-accordion-border-color: #29455a; --bs-accordion-btn-bg: #102536; --bs-accordion-btn-color: #f4f8fb; --bs-accordion-active-bg: #0c1e2b; --bs-accordion-active-color: #19c5c8; }
 .accordion-button::after { filter: brightness(0) invert(1); }
-.carousel { border: 1px solid #29455a; border-radius: 12px; overflow: hidden; }
-.carousel-item img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
 .alert-info { background-color: #0c1e2b; border-color: #29455a; color: #f4f8fb; }
 footer { border-top: 1px solid #29455a; color: #b6c4cf; font-size: .9rem; }
 a:focus-visible, button:focus-visible { outline: 3px solid #ffa31a; outline-offset: 4px; }

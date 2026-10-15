@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="titulo">
+<title id="titulo">Ruta de calentamiento en juego libre</title>
+<defs>
+    <pattern id="cuadricula" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#29455a" stroke-width="1" opacity=".24"/></pattern>
+    <marker id="flecha" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#19c5c8"/></marker>
+</defs>
+<rect width="800" height="450" fill="#0c1e2b"/>
+<rect width="800" height="450" fill="url(#cuadricula)"/>
+<text x="42" y="42" font-family="Arial, sans-serif" font-size="17" fill="#19c5c8" text-anchor="start">01 / ENTRA EN RITMO</text><path d="M200 265C80 85 390 40 400 205C410 380 700 345 620 160C550 20 290 375 200 265Z" fill="none" stroke="#29455a" stroke-width="32" stroke-linecap="round"/><path d="M200 265C120 120 350 90 390 175" fill="none" stroke="#19c5c8" stroke-width="4" stroke-dasharray="9 7" marker-end="url(#flecha)"/><path d="M415 260C500 375 695 300 620 160" fill="none" stroke="#19c5c8" stroke-width="4" stroke-dasharray="9 7" marker-end="url(#flecha)"/><g transform="translate(200 265) rotate(-40)"><rect x="-22" y="-14" width="10" height="9" rx="2" fill="#041017"/><rect x="-22" y="5" width="10" height="9" rx="2" fill="#041017"/><rect x="12" y="-14" width="10" height="9" rx="2" fill="#041017"/><rect x="12" y="5" width="10" height="9" rx="2" fill="#041017"/><rect x="-20" y="-10" width="40" height="20" rx="7" fill="#19c5c8"/><path d="M0 -8H12L17 0L12 8H0Z" fill="#06121c"/></g><circle cx="620" cy="160" r="14" fill="#f4f8fb" stroke="#aebdc8" stroke-width="3"/><path d="M615 152L627 155L628 167L615 168L610 160Z" fill="#607b8d"/><text x="400" y="415" font-family="Arial, sans-serif" font-size="21" fill="#f4f8fb" text-anchor="middle">Movimientos sencillos antes de exigir precisión.</text>
+</svg>

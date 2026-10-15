@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="titulo">
+<title id="titulo">Hoja de registro con una observación y una prioridad</title>
+<defs>
+    <pattern id="cuadricula" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#29455a" stroke-width="1" opacity=".24"/></pattern>
+    <marker id="flecha" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#19c5c8"/></marker>
+</defs>
+<rect width="800" height="450" fill="#0c1e2b"/>
+<rect width="800" height="450" fill="url(#cuadricula)"/>
+<text x="42" y="42" font-family="Arial, sans-serif" font-size="17" fill="#19c5c8" text-anchor="start">01 / ANOTA LO IMPORTANTE</text><rect x="185" y="78" width="430" height="285" rx="18" fill="#102536" stroke="#416079" stroke-width="3"/><rect x="325" y="62" width="150" height="35" rx="9" fill="#19c5c8"/><rect x="225" y="135" width="26" height="26" rx="6" fill="#0c1e2b" stroke="#19c5c8"/><path d="M231 147l5 5 9-12" fill="none" stroke="#19c5c8" stroke-width="3"/><text x="275" y="156" font-family="Arial, sans-serif" font-size="21" fill="#f4f8fb" text-anchor="start">Habilidad practicada</text><rect x="225" y="206" width="26" height="26" rx="6" fill="#0c1e2b" stroke="#19c5c8"/><path d="M231 218l5 5 9-12" fill="none" stroke="#19c5c8" stroke-width="3"/><text x="275" y="227" font-family="Arial, sans-serif" font-size="21" fill="#f4f8fb" text-anchor="start">Una observación</text><rect x="225" y="277" width="26" height="26" rx="6" fill="#0c1e2b" stroke="#19c5c8"/><path d="M231 289l5 5 9-12" fill="none" stroke="#19c5c8" stroke-width="3"/><text x="275" y="298" font-family="Arial, sans-serif" font-size="21" fill="#f4f8fb" text-anchor="start">Siguiente prioridad</text><text x="400" y="415" font-family="Arial, sans-serif" font-size="21" fill="#f4f8fb" text-anchor="middle">Un registro breve es más fácil de mantener.</text>
+</svg>

@@ -32,35 +32,42 @@
             <h1 class="display-5 mt-2">El progreso también se observa.</h1>
             <p class="lead texto-secundario mb-0">La victoria es un resultado; tus decisiones muestran qué estás aprendiendo.</p>
         </header>
-        <div class="row g-4 align-items-start">
-            <section class="col-lg-7" aria-label="Galería de Rocket League">
-                <!-- Componente Bootstrap: carrusel manual. -->
-                <div id="galeria" class="carousel slide" aria-label="Imágenes de situaciones de juego">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#galeria" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
-                        <button type="button" data-bs-target="#galeria" data-bs-slide-to="1" aria-label="Imagen 2"></button>
-                        <button type="button" data-bs-target="#galeria" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+        <!-- Tres imágenes visibles: cada tarjeta explica una parte del seguimiento. -->
+        <section class="row g-4 mb-4" aria-label="Cómo revisar el progreso">
+            <article class="col-md-4">
+                <div class="card">
+                    <img src="images/registro.svg" class="card-img-top" alt="Hoja de registro con una habilidad, una observación y una prioridad" width="800" height="450">
+                    <div class="card-body">
+                        <span class="numero">01 / REGISTRAR</span>
+                        <h2 class="card-title mt-2">Anota algo concreto</h2>
+                        <p class="card-text">Un registro sencillo puede incluir la fecha, la habilidad practicada y una observación. Por ejemplo, puedes anotar si mantuviste una mejor distancia con tu compañero.</p>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active"><img src="images/replay-analysis.png" alt="Dos autos frente al balón en una cancha de Rocket League" width="1920" height="1080"></div>
-                        <div class="carousel-item"><img src="images/training-plan.png" alt="Un auto realiza una jugada aérea cerca de la portería" width="1920" height="1080"></div>
-                        <div class="carousel-item"><img src="images/compare-progress.png" alt="Dos autos disputan el balón en Rocket League" width="1920" height="1080"></div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#galeria" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#galeria" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
                 </div>
-                <div class="pie-imagen mt-2">Distintas situaciones para observar el control del auto y las decisiones con el balón.</div>
-            </section>
-            <section class="col-lg-5" aria-labelledby="comparar">
-                <h2 id="comparar" class="h3">¿Qué puedes comparar?</h2>
-                <p>Comparar partidas ayuda a reconocer si un error aparece con menor frecuencia. Es mejor revisar una situación concreta que intentar sacar una conclusión de un solo resultado.</p>
-                <p>Un registro sencillo puede incluir la fecha, la habilidad practicada y una observación. Por ejemplo, puedes anotar si lograste mantener una mejor distancia con tu compañero.</p>
-                <p>Si una dificultad continúa apareciendo, puedes dedicarle otra sesión o reducir la dificultad del ejercicio. La siguiente prioridad debe responder a lo observado en tus partidas.</p>
-            </section>
-        </div>
+            </article>
+            <article class="col-md-4">
+                <div class="card">
+                    <img src="images/comparacion.svg" class="card-img-top" alt="Comparación ilustrativa entre dos autos juntos y dos autos con espacio para apoyarse" width="800" height="450">
+                    <div class="card-body">
+                        <span class="numero">02 / COMPARAR</span>
+                        <h2 class="card-title mt-2">Observa una decisión</h2>
+                        <p class="card-text">Comparar partidas ayuda a reconocer si un error aparece con menor frecuencia. Conviene revisar una situación concreta en lugar de sacar una conclusión a partir de una sola victoria o derrota.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4">
+                <div class="card">
+                    <img src="images/prioridad.svg" class="card-img-top" alt="Un objetivo que representa la prioridad de la siguiente sesión" width="800" height="450">
+                    <div class="card-body">
+                        <span class="numero">03 / AJUSTAR</span>
+                        <h2 class="card-title mt-2">Elige qué sigue</h2>
+                        <p class="card-text">Si una dificultad continúa apareciendo, puedes dedicarle otra sesión o reducir la dificultad del ejercicio. La siguiente prioridad debe responder a lo observado en tus partidas.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
         <!-- Componente Bootstrap: alerta. -->
-        <div class="alert alert-info mt-4 mb-0" role="note">
-            <strong>Una mejora a la vez.</strong> Estas páginas explican el concepto de Adaptive RL Coach. No procesan replays ni calculan estadísticas automáticamente.
+        <div class="alert alert-info mb-0" role="note">
+            <strong>Una mejora a la vez.</strong> Los esquemas son ilustrativos. Estas páginas presentan el concepto de Adaptive RL Coach; no procesan replays ni calculan estadísticas automáticamente.
         </div>
     </main>
     <footer class="py-4">
