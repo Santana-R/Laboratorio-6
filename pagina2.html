@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Concepto de Adaptive RL Coach: revisión de partidas, entrenamiento y seguimiento en Rocket League.">
+    <title>Entrenamiento | Adaptive RL Coach</title>
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- El menú se despliega con el botón en pantallas pequeñas. -->
+    <nav class="navbar navbar-expand-md navbar-dark" aria-label="Navegación principal">
+        <div class="container py-2">
+            <a class="navbar-brand" href="index.html">Adaptive <span>RL</span> Coach</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir o cerrar menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto gap-md-2">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="pagina1.html">Página 1</a></li>
+                <li class="nav-item"><a class="nav-link active" href="pagina2.html" aria-current="page">Página 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="pagina3.html">Página 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container pb-5">
+        <header class="portada">
+            <div class="etiqueta">Página 2 · Adaptive RL Coach</div>
+            <h1 class="display-5 mt-2">Una sesión. Una prioridad.</h1>
+            <p class="lead texto-secundario mb-0">Una rutina breve y clara facilita concentrarse en lo que quieres practicar.</p>
+        </header>
+        <!-- Componente Bootstrap: tarjetas. -->
+        <section class="row g-4 mb-4" aria-label="Partes de una sesión">
+            <article class="col-md-4">
+                <div class="card">
+                    <img src="images/training-plan.png" class="card-img-top" alt="Un auto realiza una jugada aérea cerca de la portería" width="1920" height="1080">
+                    <div class="card-body"><span class="numero">PASO 1</span><h2 class="card-title mt-2">Calentamiento</h2><p class="card-text">El juego libre permite comenzar con movimientos sencillos y familiarizarse con el control del auto. El objetivo es entrar en ritmo antes de aumentar la dificultad.</p></div>
+                </div>
+            </article>
+            <article class="col-md-4">
+                <div class="card">
+                    <img src="images/compare-progress.png" class="card-img-top" alt="Dos autos disputan el balón en Rocket League" width="1920" height="1080">
+                    <div class="card-body"><span class="numero">PASO 2</span><h2 class="card-title mt-2">Práctica enfocada</h2><p class="card-text">Elegir una sola habilidad facilita reconocer los errores durante la sesión. Por ejemplo, se pueden repetir tiros a una zona de la portería y observar la colocación del auto.</p></div>
+                </div>
+            </article>
+            <article class="col-md-4">
+                <div class="card">
+                    <img src="images/replay-analysis.png" class="card-img-top" alt="Dos autos frente al balón en una cancha de Rocket League" width="1920" height="1080">
+                    <div class="card-body"><span class="numero">PASO 3</span><h2 class="card-title mt-2">Aplicación en partida</h2><p class="card-text">Después de practicar, una partida sirve para buscar situaciones similares. La intención es aplicar lo trabajado sin intentar cambiar todas las decisiones al mismo tiempo.</p></div>
+                </div>
+            </article>
+        </section>
+        <section class="panel" aria-labelledby="rutinaEjemplo">
+            <h2 id="rutinaEjemplo" class="h3">Ejemplo de sesión de 30 minutos</h2>
+            <p class="texto-secundario">Esta distribución es una propuesta que puedes ajustar según tu tiempo y tu objetivo.</p>
+            <!-- Componente Bootstrap: collapse. -->
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#rutina" aria-expanded="false" aria-controls="rutina">Mostrar u ocultar rutina</button>
+            <div class="collapse mt-3" id="rutina">
+                <ol class="mb-0"><li>5 minutos de calentamiento en juego libre.</li><li>10 minutos de tiros con un objetivo de colocación.</li><li>10 minutos para aplicar la habilidad en una partida.</li><li>5 minutos para anotar un acierto y algo por mejorar.</li></ol>
+            </div>
+        </section>
+    </main>
+    <footer class="py-4">
+        <div class="container d-flex flex-wrap justify-content-between gap-2">
+            <span>Adaptive RL Coach · Proyecto académico</span>
+            <span>Roberto Santana Trujillo · 2227084</span>
+        </div>
+    </footer>
+    <!-- La biblioteca local permite usar el menú y los componentes sin internet. -->
+    <script src="vendor/bootstrap.bundle.min.js"></script>
+</body>
+</html>

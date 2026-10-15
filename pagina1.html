@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Concepto de Adaptive RL Coach: revisión de partidas, entrenamiento y seguimiento en Rocket League.">
+    <title>Análisis de partidas | Adaptive RL Coach</title>
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- El menú se despliega con el botón en pantallas pequeñas. -->
+    <nav class="navbar navbar-expand-md navbar-dark" aria-label="Navegación principal">
+        <div class="container py-2">
+            <a class="navbar-brand" href="index.html">Adaptive <span>RL</span> Coach</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir o cerrar menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto gap-md-2">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link active" href="pagina1.html" aria-current="page">Página 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="pagina2.html">Página 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="pagina3.html">Página 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container pb-5">
+        <header class="portada">
+            <div class="etiqueta">Página 1 · Adaptive RL Coach</div>
+            <h1 class="display-5 mt-2">Antes de practicar, observa.</h1>
+            <p class="lead texto-secundario mb-0">Una repetición permite revisar decisiones que pasan muy rápido durante el partido.</p>
+        </header>
+        <!-- Componente Bootstrap: tarjetas. -->
+        <section class="row g-4 mb-5" aria-label="Aspectos para revisar">
+            <article class="col-md-4">
+                <div class="card">
+                    <img src="images/replay-analysis.png" class="card-img-top" alt="Dos autos frente al balón en una cancha de Rocket League" width="1920" height="1080">
+                    <div class="card-body"><span class="numero">01</span><h2 class="card-title mt-2">Posicionamiento</h2><p class="card-text">Revisar la posición del auto ayuda a reconocer si una jugada tenía apoyo. También permite observar cuándo conviene retroceder en lugar de seguir el balón.</p></div>
+                </div>
+            </article>
+            <article class="col-md-4">
+                <div class="card">
+                    <img src="images/training-plan.png" class="card-img-top" alt="Un auto realiza una jugada aérea cerca de la portería" width="1920" height="1080">
+                    <div class="card-body"><span class="numero">02</span><h2 class="card-title mt-2">Uso del boost</h2><p class="card-text">La cantidad de boost influye en las opciones disponibles. Una revisión puede mostrar recorridos innecesarios o momentos en los que era posible recoger pads pequeños.</p></div>
+                </div>
+            </article>
+            <article class="col-md-4">
+                <div class="card">
+                    <img src="images/compare-progress.png" class="card-img-top" alt="Dos autos disputan el balón en Rocket League" width="1920" height="1080">
+                    <div class="card-body"><span class="numero">03</span><h2 class="card-title mt-2">Decisiones con el balón</h2><p class="card-text">No todos los toques necesitan ser fuertes. Observar el espacio y la posición del rival ayuda a distinguir entre controlar, pasar o despejar el balón.</p></div>
+                </div>
+            </article>
+        </section>
+        <section aria-labelledby="preguntasRevision">
+            <h2 id="preguntasRevision" class="h3 mb-3">Preguntas para revisar una jugada</h2>
+            <!-- Componente Bootstrap: acordeón. -->
+            <div class="accordion" id="revision">
+                <div class="accordion-item">
+                    <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#antes" aria-expanded="true" aria-controls="antes">¿Qué pasó antes del error?</button></h3>
+                    <div id="antes" class="accordion-collapse collapse show" data-bs-parent="#revision"><div class="accordion-body">Observa la posición de tus compañeros, tu velocidad y el espacio disponible antes de tomar la decisión.</div></div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#alternativa" aria-expanded="false" aria-controls="alternativa">¿Qué otra opción tenía?</button></h3>
+                    <div id="alternativa" class="accordion-collapse collapse" data-bs-parent="#revision"><div class="accordion-body">Busca una alternativa concreta: esperar, rotar hacia atrás, controlar el balón o dejar la jugada a un compañero mejor ubicado.</div></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="py-4">
+        <div class="container d-flex flex-wrap justify-content-between gap-2">
+            <span>Adaptive RL Coach · Proyecto académico</span>
+            <span>Roberto Santana Trujillo · 2227084</span>
+        </div>
+    </footer>
+    <!-- La biblioteca local permite usar el menú y los componentes sin internet. -->
+    <script src="vendor/bootstrap.bundle.min.js"></script>
+</body>
+</html>
