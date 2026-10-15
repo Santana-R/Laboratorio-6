@@ -1,0 +1,41 @@
+/* Paleta de Adaptive RL Coach. Bootstrap se carga antes de este archivo. */
+body {
+    background-color: #081722;
+    color: #f4f8fb;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+}
+.navbar, footer { background-color: #06121c; }
+.navbar { border-bottom: 1px solid #29455a; }
+.navbar-brand { font-weight: bold; }
+.navbar-brand span, .etiqueta { color: #19c5c8; }
+.navbar .nav-link { color: #b6c4cf; }
+.navbar .nav-link:hover, .navbar .nav-link:focus { color: #f4f8fb; }
+.navbar .nav-link.active { color: #19c5c8; text-decoration: underline; text-underline-offset: 6px; }
+main { min-height: 75vh; }
+.portada { padding-top: 4rem; padding-bottom: 4rem; }
+h1, h2, h3 { font-weight: bold; line-height: 1.2; }
+.etiqueta { font-size: .85rem; font-weight: bold; letter-spacing: .12rem; text-transform: uppercase; }
+.texto-secundario, .pie-imagen { color: #b6c4cf; }
+.imagen-portada { width: 100%; border-radius: 12px; border: 1px solid #29455a; }
+.panel, .card { background-color: #102536; color: #f4f8fb; border: 1px solid #29455a; }
+.panel { padding: 1.5rem; border-radius: 12px; }
+.card { height: 100%; overflow: hidden; }
+.card-img-top { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.card-title { font-size: 1.3rem; }
+.btn-primary { background-color: #16b9bd; border-color: #16b9bd; color: #041017; font-weight: bold; }
+.btn-primary:hover, .btn-primary:focus { background-color: #34d1d3; border-color: #34d1d3; color: #041017; }
+.btn-outline-light { border-color: #aebdc8; }
+.numero { color: #ffa31a; font-weight: bold; }
+.separador { border-top: 1px solid #29455a; }
+.accordion { --bs-accordion-bg: #102536; --bs-accordion-color: #f4f8fb; --bs-accordion-border-color: #29455a; --bs-accordion-btn-bg: #102536; --bs-accordion-btn-color: #f4f8fb; --bs-accordion-active-bg: #0c1e2b; --bs-accordion-active-color: #19c5c8; }
+.accordion-button::after { filter: brightness(0) invert(1); }
+.carousel { border: 1px solid #29455a; border-radius: 12px; overflow: hidden; }
+.carousel-item img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.alert-info { background-color: #0c1e2b; border-color: #29455a; color: #f4f8fb; }
+footer { border-top: 1px solid #29455a; color: #b6c4cf; font-size: .9rem; }
+a:focus-visible, button:focus-visible { outline: 3px solid #ffa31a; outline-offset: 4px; }
+@media (max-width: 767px) {
+    .portada { padding-top: 2rem; padding-bottom: 2rem; }
+    .navbar-brand { font-size: 1rem; }
+}
